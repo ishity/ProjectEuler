@@ -13,7 +13,6 @@ int main(){
 
     max = 600851475143;
     int j[10000];
-    printf("a\n");
 
     // 因数を配列に格納
     while(i < max){
