@@ -23,7 +23,8 @@ int main(){
         }
         i++;
     }
-    printf("b\n");
+
+    // 因数の中から素因数を求める
     for(int m=k-1; m>=0; m--){
         for(int l=0; l<k; l++){
             if(j[m]>j[l] && j[m]%j[l]==0){
@@ -31,6 +32,8 @@ int main(){
             }
         }
     }
+
+    // 素因数の中で最大のものを求める
     for(int m=0; m<k; m++){
         if(j[m]>ans) ans=j[m];
     }
