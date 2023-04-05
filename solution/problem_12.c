@@ -35,28 +35,3 @@ for(int i=2; i<MAX; i++){
 }
 printf("The answer is %d\n", p[c]);
 }
-
-
-// c--;
-// printf("c:%d,", c);
-// printf("%d\n", p[c]);
-
-// divisors
-// while(c>0){
-//     printf("%d:", p[c]);
-//     for(int i=1; i<=p[c]; i++){
-//         if(p[c]%i==0){
-//             c2++; // 割り切れる
-//             // printf("%d,", i);
-//             if(c2>500){
-//                 break;
-//             }
-//         }
-//     }
-//     if(c2+1>500) break;
-//     c--;
-//     printf("%d個,end\n", c2);
-//     c2=0;
-// }
-// printf("The answer is %d\n", p[c]);
-// }
