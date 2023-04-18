@@ -18,6 +18,7 @@ int main(){
             }
             else if(i==0 || j==0) ans+=1;
             else ans+=2;
+            
         }
     }
 
